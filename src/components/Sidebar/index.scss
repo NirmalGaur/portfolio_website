@@ -17,6 +17,14 @@
       width: 75px;
       height: auto;
 
+      &:hover {
+        -webkit-filter: drop-shadow(2px 2px 2px #ffd700);
+        filter: drop-shadow(2px 2px 2px #ffd700);
+        transition: all 0.3s ease-in-out;
+      }
+      // -webkit-filter: drop-shadow(5px 5px 5px #ffd700);
+      // filter: drop-shadow(5px 5px 5px #ffd700);
+
       &.sub-logo {
         width: 50px;
       }
@@ -83,7 +91,7 @@
       }
     }
 
-    a.about-link {
+    a.contact-link {
       &:after {
         content: 'CONTACT';
       }
